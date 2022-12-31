@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	        
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.banner{
+	background: url('images/large.jpg');
+	padding: 290px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.banner h1{
+	color: #fff;
+	margin-bottom: 15px;
+
+	}
+.banner button{
+	background: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	padding: 10px 30px;
+
+}
+.banner button:hover{
+	border-radius: 30px;
+	background: #fff;
+	color: #000;
+	cursor: pointer;
+}
+
+.box-1{
+	width: 250px;
+	height: 250px;
+	background:linear-gradient(45deg,red, blue);
+	margin: 100px auto;
+	box-shadow: 0 0 45px red;
+
+		
+
+}
+
+.box-2{
+	width: 250px;
+	height: 250px;
+	background: #74b9ff;
+	margin: 100px auto;
+	transition: .8s;
+
+ } 
+
+
+.box-2 img{
+	width: 100%;
+	display: block;
+	transition: .5s;
+
+  }
+
+ .box-2:hover  img{
+ 	transform: translate(50px, 75px);
+
+
+
+ } 
+ .sada{
+	width: 650px;
+	height: 380px;
+	background: green;
+	margin: 100px auto;
+	position: relative;
+
+} 
+
+.kalo{
+	width: 180px;
+	height: 180px;
+	background: red;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 50%
+
+  }    
